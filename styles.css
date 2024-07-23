@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: #00FF00;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.terminal {
+    padding: 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.welcome, .instructions, .prompt {
+    font-size: 16px;
+}
+
+.command {
+    color: #FF69B4;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+}
+
+#input {
+    background: none;
+    border: none;
+    color: #FF69B4;
+    font-family: monospace;
+    font-size: 16px;
+    flex-grow: 1;
+    outline: none;
+}
+
+#output {
+    background: none;
+    border: none;
+    color: #00FF00;
+    font-family: monospace;
+    font-size: 16px;
+    flex-grow: 1;
+    outline: none;
+}
+
+.output-line {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.user-command {
+    color: #FF69B4;
+}
+
+.console-response {
+    color: #00FF00;
+}
