@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     };
 
     function showTimeSpent() {
-        const startDate = new Date("2023-15-08");
+        const startDate = new Date("2023-08-15");
         const nowDate = new Date();
         const diffTime = Math.floor((nowDate - startDate) / 1000);
 
